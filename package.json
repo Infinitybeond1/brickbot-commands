@@ -1,16 +1,16 @@
 {
   "name": "loldiscordslashcommands",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
+    "@discordjs/voice": "^0.6.0",
     "discord.js": "^13.1.0"
   },
   "devDependencies": {
     "node": "^16.9.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/Infinitybeond1/brickbot-commands/issues"
   },
-  "homepage": "https://github.com/Infinitybeond1/brickbot-commands#readme"
+  "homepage": "https://github.com/Infinitybeond1/brickbot-commands#readme",
+  "description": ""
 }
